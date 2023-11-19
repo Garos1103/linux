@@ -12,3 +12,5 @@ output = stdout.read().decode()
 print('Comand Output:, output')
 
 print('Command Error', error)
+
+ssh.close()
